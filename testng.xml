@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" thread-count="5">
+    <test name="test1">
+        <classes>
+            <!--<class name="app.auToTest.ifTest">
+                <methods>
+                     <include name = "uploadMessagesToPerson" />
+                </methods>
+            </class>-->
+            <class name="app.testng.SimpleTest">
+                <methods>
+                    <include name = "test1" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
